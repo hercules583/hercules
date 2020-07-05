@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28f96620-3854-4cfa-8bbc-04653a74d529" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/AutoTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/AutoTest.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/zuowenkeyword.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/zuowenkeyword.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/key_words/key.robot" beforeDir="false" afterPath="$PROJECT_DIR$/key_words/key.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/key_words/zuowenkeyword.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_case/test_1.robot" beforeDir="false" afterPath="$PROJECT_DIR$/test_case/test_1.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_case/test_2.robot" beforeDir="false" afterPath="$PROJECT_DIR$/test_case/test_2.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_case/连接key关键字.robot" beforeDir="false" afterPath="$PROJECT_DIR$/test_case/连接key关键字.robot" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,10 +30,15 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/common" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.fot">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\code\hercules\AutoTest\common" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.zuowenkeyword">
     <configuration name="123" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AutoTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -94,9 +104,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.fot" />
-        <item itemvalue="Python.123" />
         <item itemvalue="Python.zuowenkeyword" />
+        <item itemvalue="Python.123" />
+        <item itemvalue="Python.fot" />
       </list>
     </recent_temporary>
   </component>
@@ -114,30 +124,42 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1344" height="156" key="GridCell.Tab.0.bottom" timestamp="1593267086205">
+    <state x="398" y="0" key="#123" timestamp="1593701891819">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1344" height="156" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593267086205" />
-    <state width="1344" height="156" key="GridCell.Tab.0.center" timestamp="1593267086205">
+    <state x="398" y="0" key="#123/0.0.1366.728@0.0.1366.728" timestamp="1593701891819" />
+    <state x="398" y="0" key="#zuowenkeyword" timestamp="1593701563526">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1344" height="156" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1593267086205" />
-    <state width="1344" height="156" key="GridCell.Tab.0.left" timestamp="1593267086205">
+    <state x="398" y="0" key="#zuowenkeyword/0.0.1366.728@0.0.1366.728" timestamp="1593701563526" />
+    <state x="643" y="121" key="FileChooserDialogImpl" timestamp="1593702892189">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1344" height="156" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1593267086205" />
-    <state width="1344" height="156" key="GridCell.Tab.0.right" timestamp="1593267086205">
+    <state x="643" y="121" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1593702892189" />
+    <state width="1344" height="156" key="GridCell.Tab.0.bottom" timestamp="1593928876052">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1344" height="156" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1593267086205" />
-    <state x="366" y="0" key="SettingsEditor" timestamp="1592928351765">
+    <state width="1344" height="156" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593928876052" />
+    <state width="1344" height="156" key="GridCell.Tab.0.center" timestamp="1593928876052">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="366" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1592928351765" />
-    <state x="375" y="190" key="com.intellij.ide.util.TipDialog" timestamp="1593266714391">
+    <state width="1344" height="156" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1593928876052" />
+    <state width="1344" height="156" key="GridCell.Tab.0.left" timestamp="1593928876051">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="375" y="190" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1593266714391" />
+    <state width="1344" height="156" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1593928876051" />
+    <state width="1344" height="156" key="GridCell.Tab.0.right" timestamp="1593928876052">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1344" height="156" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1593928876052" />
+    <state x="181" y="0" key="SettingsEditor" timestamp="1593704211456">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="181" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1593704211456" />
+    <state x="375" y="190" key="com.intellij.ide.util.TipDialog" timestamp="1593918297004">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="375" y="190" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1593918297004" />
     <state x="346" y="49" key="search.everywhere.popup" timestamp="1593266727400">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -148,7 +170,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/common/zuowenkeyword.py</url>
-          <line>14</line>
+          <line>55</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
