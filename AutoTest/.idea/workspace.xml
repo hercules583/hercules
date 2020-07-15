@@ -2,20 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28f96620-3854-4cfa-8bbc-04653a74d529" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/AutoTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/AutoTest.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/lesson1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/lesson2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/lesson3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/lesson4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/test_case_api.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/123.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/add_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/fot.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/fot.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/zuowenkeyword.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/zuowenkeyword.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/key_words/key.robot" beforeDir="false" afterPath="$PROJECT_DIR$/key_words/key.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/key_words/zuowenkeyword.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/test_case/test_1.robot" beforeDir="false" afterPath="$PROJECT_DIR$/test_case/test_1.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_case/test_2.robot" beforeDir="false" afterPath="$PROJECT_DIR$/test_case/test_2.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_case/连接key关键字.robot" beforeDir="false" afterPath="$PROJECT_DIR$/test_case/连接key关键字.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_case/var_1.robot" beforeDir="false" afterPath="$PROJECT_DIR$/test_case/var_1.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_case/前程贷接口自动化测试.robot" beforeDir="false" afterPath="$PROJECT_DIR$/test_case/前程贷接口自动化测试.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/variable.txt" beforeDir="false" afterPath="$PROJECT_DIR$/variable.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -31,15 +45,18 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/common" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\code\hercules\AutoTest\common" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\code\hercules\AutoTest\common" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.zuowenkeyword">
-    <configuration name="123" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.lesson4">
+    <configuration name="1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AutoTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -51,7 +68,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/123.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -60,7 +77,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="fot" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="lesson2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AutoTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -72,7 +89,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/fot.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/lesson2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -81,7 +98,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="zuowenkeyword" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="lesson3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AutoTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -93,7 +110,49 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/zuowenkeyword.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/lesson3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="lesson4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AutoTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/common" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/lesson4.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="practice" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AutoTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Desktop/p" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Desktop/p/practice.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -104,9 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.zuowenkeyword" />
-        <item itemvalue="Python.123" />
-        <item itemvalue="Python.fot" />
+        <item itemvalue="Python.lesson4" />
+        <item itemvalue="Python.lesson3" />
+        <item itemvalue="Python.lesson2" />
+        <item itemvalue="Python.practice" />
+        <item itemvalue="Python.1" />
       </list>
     </recent_temporary>
   </component>
@@ -128,49 +189,53 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="398" y="0" key="#123/0.0.1366.728@0.0.1366.728" timestamp="1593701891819" />
+    <state x="429" y="171" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1594287168569">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="429" y="171" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1594287168569" />
     <state x="398" y="0" key="#zuowenkeyword" timestamp="1593701563526">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="398" y="0" key="#zuowenkeyword/0.0.1366.728@0.0.1366.728" timestamp="1593701563526" />
-    <state x="643" y="121" key="FileChooserDialogImpl" timestamp="1593702892189">
+    <state x="643" y="121" key="FileChooserDialogImpl" timestamp="1594398341274">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="643" y="121" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1593702892189" />
-    <state width="1344" height="156" key="GridCell.Tab.0.bottom" timestamp="1593928876052">
+    <state x="643" y="121" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1594398341274" />
+    <state width="1344" height="110" key="GridCell.Tab.0.bottom" timestamp="1594820642693">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1344" height="156" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593928876052" />
-    <state width="1344" height="156" key="GridCell.Tab.0.center" timestamp="1593928876052">
+    <state width="1344" height="110" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1594820642693" />
+    <state width="1344" height="110" key="GridCell.Tab.0.center" timestamp="1594820642692">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1344" height="156" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1593928876052" />
-    <state width="1344" height="156" key="GridCell.Tab.0.left" timestamp="1593928876051">
+    <state width="1344" height="110" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1594820642692" />
+    <state width="1344" height="110" key="GridCell.Tab.0.left" timestamp="1594820642692">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1344" height="156" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1593928876051" />
-    <state width="1344" height="156" key="GridCell.Tab.0.right" timestamp="1593928876052">
+    <state width="1344" height="110" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1594820642692" />
+    <state width="1344" height="110" key="GridCell.Tab.0.right" timestamp="1594820642692">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1344" height="156" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1593928876052" />
-    <state x="181" y="0" key="SettingsEditor" timestamp="1593704211456">
+    <state width="1344" height="110" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1594820642692" />
+    <state x="200" y="0" key="SettingsEditor" timestamp="1594816462643">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="181" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1593704211456" />
-    <state x="375" y="190" key="com.intellij.ide.util.TipDialog" timestamp="1593918297004">
+    <state x="200" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1594816462643" />
+    <state x="375" y="190" key="com.intellij.ide.util.TipDialog" timestamp="1594804443011">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="375" y="190" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1593918297004" />
-    <state x="346" y="49" key="search.everywhere.popup" timestamp="1593266727400">
+    <state x="375" y="190" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1594804443011" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1594653785029">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1593266727400" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1594653785029" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/common/zuowenkeyword.py</url>
-          <line>55</line>
+          <line>152</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

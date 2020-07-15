@@ -1,6 +1,5 @@
 *** Settings ***
 Library           Selenium2Library
-Library           SeleniumLibrary
 Library           ../common/add_1.py
 
 *** Variables ***

@@ -49,5 +49,48 @@ Inloop
 
 用户登录环境准备
     [Arguments]    ${ip}    ${port}    ${moblie_phone}    ${pwd}
-    ${return_longin_info}    login    ${ip}    ${port}    18206264880    houlei5837
-    set global variable    ${return_longin_info}
+    ${return_1}    login    ${ip}    ${port}    ${moblie_phone}    ${pwd}
+    set global variable    ${return_1[1]["data"]["token_info"]["token"]}
+    set global variable    ${return_1[1]["data"]["id"]}
+    [Return]    ${return_1}
+
+提现
+    [Arguments]    ${ip}    ${port}    ${member_id}    ${amount}    ${token_id}
+    ${return}    withdraw    ${ip}    ${port}    ${member_id}    ${amount}    ${token_id}
+    [Return]    ${return}
+
+更新昵称
+    [Arguments]    ${ip}    ${port}    ${member_id}    ${reg_name}    ${token_id}
+    ${return}    update    ${ip}    ${port}    ${member_id}    ${reg_name}    ${token_id}
+    [Return]    ${return}
+
+用户信息
+    [Arguments]    ${ip}    ${port}    ${member_id}    ${token_id}
+    ${return}    info    ${ip}    ${port}    ${member_id}    ${token_id}
+    [Return]    ${return}
+
+新增项目
+    [Arguments]    ${ip}    ${port}    ${member_id}    ${title}    ${amount}    ${loan_rate}    ${loan_term}    ${loan_date_type}    ${bidding_days}    ${token_id}
+    ${return}    add    ${ip}    ${port}    ${member_id}    ${title}    ${amount}    ${loan_rate}    ${loan_term}    ${loan_date_type}    ${bidding_days}    ${token_id}
+    [Return]    ${return}
+
+标id环境准备
+    [Arguments]    ${ip}    ${port}    ${member_id}    ${title}    ${amount}    ${loan_rate}    ${loan_term}    ${loan_date_type}    ${bidding_days}    ${token_id}
+    ${return_2}    add    ${ip}    ${port}    ${member_id}    ${title}    ${amount}    ${loan_rate}    ${loan_term}    ${loan_date_type}    ${bidding_days}    ${token_id}
+    set global variable    ${return_2[1]["data"]["id"]}
+    [Return]    ${return_2}
+
+审核项目
+    [Arguments]    ${ip}    ${port}    ${loan_id}    ${approved_or_not}    ${token_id}
+    ${return}    audit    ${ip}    ${port}    ${loan_id}    ${approved_or_not}    ${token_id}
+    [Return]    ${return}
+
+投资
+    [Arguments]    ${ip}    ${port}    ${member_id}    ${loan_id}    ${amount}    ${token_id}
+    ${return}    invest    ${ip}    ${port}    ${member_id}    ${loan_id}    ${amount}    ${token_id}
+    [Return]    ${return}
+
+项目列表
+    [Arguments]    ${ip}    ${port}    ${pageIndex}    ${pageSize}    ${token_id}
+    ${return}    loans    ${ip}    ${port}    ${pageIndex}    ${pageSize}    ${token_id}
+    [Return]    ${return}

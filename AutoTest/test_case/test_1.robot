@@ -1,6 +1,8 @@
 *** Settings ***
+Suite Setup
 Resource          ../key_words/key.robot
-Library           Selenium2Library
+Library           RequestsLibrary
+Library           SeleniumLibrary
 
 *** Test Cases ***
 global_1
@@ -94,3 +96,13 @@ bycss
     input text    id=kw    zhongguo
     click element    id=su
     sleep    3
+
+post请求
+    Create Session    register    http://120.78.128.25:8766
+    ${url}    set variable    /futureloan/member/register
+    ${weiba}    evaluate    random.randint(1000,9999)    random
+    ${date}    create dictionary    mobile_phone=1820626${weiba}    pwd=12345678
+    ${headers}    create dictionary    X-Lemonban-Media-Type=lemonban.v2    Content-Type=application/json
+    ${resp}    post Request    register    ${url}    ${date}    headers=${headers}
+    log    ${resp.status_code}
+    log    ${resp.json()}
